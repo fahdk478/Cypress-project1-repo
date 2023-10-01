@@ -14,7 +14,7 @@ describe('Open w3schools - python tutorial - run example', () => {
     // Click on the 'Python Booleans' link
     cy.contains('a', 'Python Booleans').click();
   });
-/*
+
   it('runs Python example', () => {
     // Scroll to the 'Try it Yourself »' link
     cy.contains('p', 'When you compare two values,').scrollIntoView();
@@ -25,5 +25,5 @@ describe('Open w3schools - python tutorial - run example', () => {
     // Add assertions to verify the behavior of the example, if needed
     // Example:
     // cy.contains('h1', 'Python Boolean Example').should('be.visible');
-  });*/
+  });
 });
